@@ -65,7 +65,7 @@ typings/
 
 # Project stuff
 dist
-lib
+
 coverage
 gen-docs
 .DS_Store
