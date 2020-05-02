@@ -146,6 +146,8 @@
  * @param {boolean} [node.renderLabel=true] - <a id="node-render-label" href="#node-render-label">🔗</a> 🔍🔍🔍 when set to false no labels will appear along side nodes in the
  * graph.
  * @param {number} [node.size=200] - <a id="node-size" href="#node-size">🔗</a> 🔍🔍🔍 defines the size of all nodes.
+ * @param {number} [node.sizeWidth=undefined] - 🔍🔍🔍 defines the width of all nodes - overrides the size property.
+ * @param {number} [node.sizeHeight=undefined] - 🔍🔍🔍 defines the height of all nodes - overrides the size property.
  * @param {string} [node.strokeColor="none"] - <a id="node-stroke-color" href="#node-stroke-color">🔗</a> 🔍🔍🔍  this is the stroke color that will be applied to the node if no <b>strokeColor property</b> is found inside the node itself (yes <b>you can pass a property "strokeColor" inside the node and that stroke color will override this default one</b>).
  * @param {number} [node.strokeWidth=1.5] - <a id="node-stroke-width" href="#node-stroke-width">🔗</a> 🔍🔍🔍 the width of the all node strokes.
  * @param {string} [node.svg=""] - <a id="node-svg" href="#node-svg">🔗</a> 🔍🔍🔍 render custom svg for nodes in alternative to <b>node.symbolType</b>. This svg can
@@ -266,6 +268,10 @@ export default {
         opacity: 1,
         renderLabel: true,
         size: 200,
+        //////////
+        sizeWidth: undefined,
+        sizeHeight: undefined,
+        /////////
         strokeColor: "none",
         strokeWidth: 1.5,
         svg: "",

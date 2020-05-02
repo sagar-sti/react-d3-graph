@@ -1,3 +1,11 @@
+# Forked from
+
+This is a fork off Daniel Caldas's work: https://github.com/danielcaldas/react-d3-graph
+
+# Added customisations
+
+A few customisations to address features related to rectangular node shapes are contributed to : @brc/react-d3-graph https://github.com/Barnstorm-Research/react-d3-graph
+
 # react-d3-graph &middot; [![Build Status](https://travis-ci.org/danielcaldas/react-d3-graph.svg?branch=master&style=flat-square)](https://travis-ci.org/danielcaldas/react-d3-graph)
 
 [![npm version](https://img.shields.io/npm/v/react-d3-graph.svg?style=flat-square)](https://www.npmjs.com/package/react-d3-graph) [![npm](https://img.shields.io/npm/dw/react-d3-graph.svg?style=flat-square)](https://www.npmjs.com/package/react-d3-graph)
